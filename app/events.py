@@ -1,7 +1,7 @@
 from probability import calculator_probability
 
 
-def two_coins(a, b):
+def two_coins(a:int, b):
     """
     Вычисляем веротяность вападение подряд b любых исхода
     a = орел или решка 0, орел, 1 - решка
@@ -19,3 +19,11 @@ def two_dice(a, b):
     """
     prob_2_coins = calculator_probability("dice", a) ** b
     return prob_2_coins
+
+import random
+
+def two_coin(a,b):
+    a = int(input('число:'))
+    b = int(input('число:'))
+prob_2_coins()=0,5**b
+
